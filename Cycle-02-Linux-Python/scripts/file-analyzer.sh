@@ -1,18 +1,19 @@
-#!/bin/bash<br>
-dir=$1<br><br>
+#!/bin/bash
 
-echo "Directory is: $dir"<br><br>
+dir=$1
 
-cd "$dir"<br><br>
+echo "Directory is: $dir"
 
-echo "Files with sizes:"<br>
-ls -lh<br><br>
+cd "$dir"
 
-count=$(ls | wc -l)<br>
-echo "Total files: $count"<br><br>
+echo "Files with sizes:"
+ls -lh
 
-echo "Total directory size:"<br>
-du -sh .<br><br>
+count=$(ls | wc -l)
+echo "Total files: $count"
 
-echo "Largest file:"<br>
-ls -lS | head -2<br>
+echo "Total directory size:"
+du -sh .
+
+echo "Largest file:"
+ls -lS | head -2
