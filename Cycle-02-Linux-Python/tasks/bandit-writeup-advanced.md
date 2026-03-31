@@ -1,5 +1,6 @@
 Level 10 → 11
 Command used: base64 -d data.txt
+<br>
 Password found: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 New concept learned:
 I understood that the data was just base64 encoded, not encrypted, so decoding it revealed the password easily.
